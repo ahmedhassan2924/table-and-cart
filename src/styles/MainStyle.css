@@ -1,0 +1,69 @@
+.Body {
+    background-color: #f7f4f7;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .innerBox {
+    background-color: white;
+    flex-direction: column; 
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+      max-width: 800px; 
+     width: 70%;
+    height: 40%;
+    min-height: 300;
+    /* padding: 20px;     */
+  }
+  
+  .Header{
+      padding: 150px;
+      align-self: flex-start;
+  }
+  .secondBox{
+      background-color: rgb(244, 244, 246);
+      border-width: 0 2px 0 0;
+      border: solid rgb(7, 7, 7) 1px;
+      height: 70vh;
+      width: 20vw;
+      margin-left: 20px;
+      padding: 4px 4px;
+      
+  }
+  .row{
+      display: flex;
+      /* flex-direction: column; */
+      height: 50px;
+  }
+  .column{
+      display: flex;
+      flex-direction: row;
+  }
+  .inputFields{
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .Buttons{
+    display: flex;
+    min-width: 100%;
+    justify-content: space-around;  
+    
+  }
+  .mainHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+  .Button{
+    display: flex;
+    align-items:center;
+    width: 9vw;
+    justify-content: space-between;
+    
+  }
+  

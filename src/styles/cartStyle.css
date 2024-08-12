@@ -1,0 +1,27 @@
+.Body {
+  background-color: #f7f4f7;
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.innerBox {
+  background-color: rgb(226, 26, 26);
+  flex-direction: column;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  width: 70%;
+  height: 40%;
+  min-height: 300;
+  /* padding: 20px;     */
+}
+.Button{
+    display: flex;
+    align-items:center;
+    width: 9vw;
+    justify-content: space-between;
+    
+  }
